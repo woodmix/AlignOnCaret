@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "AlignOnCaret: Align on caret",
+        "command": "align_on_caret",
+    },
+]

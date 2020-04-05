@@ -1,0 +1,40 @@
+[
+	{
+        "id": "edit",
+        "children":
+        [
+            {
+                "caption": "Align on caret",
+                "mnemonic": "A",
+                "id": "align_on_caret",
+                "command": "align_on_caret",
+            },
+        ]
+    },
+	{
+		"id": "preferences",
+		"children":
+		[
+			{
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Align on caret",
+						"children":
+                        [
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/AlignOnCaret/Default (${platform}).sublime-keymap",
+                                    "default": "[]"
+                                },
+                                "caption": "Key Bindings"
+                            },
+                        ]
+					}
+				]
+			}
+		]
+	}
+]
