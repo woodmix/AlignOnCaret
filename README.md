@@ -87,3 +87,6 @@ yeah
     var foobar =    "foobar"        // |
     var foobarbaz = "foobarbaz"     // |
 ```
+
+## License
+MIT
